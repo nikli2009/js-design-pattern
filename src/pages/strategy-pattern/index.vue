@@ -5,9 +5,9 @@
     <div class="strategy-switch" @click="onClickLoadProduct">
       load product
     </div>
-    <div class="product-item">
+    <div class="product-item" v-if="notification">
       {{ product.name }} {{ product.type }}
-      <p v-if="notification" class="product-item__notification">
+      <p class="product-item__notification">
         {{ notification }}
       </p>
     </div>
