@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div class="container">
     <h1>strategy-pattern</h1>
     <p>handling different cases with strategy</p>
-    <div @click="onClickLoadProduct">
+    <div class="strategy-switch" @click="onClickLoadProduct">
       load product
     </div>
     <div class="product-item">
       {{ product.name }} {{ product.type }}
-      <p class="product-item__notification">
+      <p v-if="notification" class="product-item__notification">
         {{ notification }}
       </p>
     </div>
@@ -65,7 +65,8 @@
             // we can simply add some strategies
 
             // benefit 1: you can add new strategy as you want without CHANGE THE CODE HERE
-            // benefit 2: avoid using lots of If-Else and Switch
+            // benefit 2: avoid using lots of If-Else and Switch, make this piece of code easier to read
+            // benefit 3: dev just need to care about on the Strategies' code, [notificationStrategies]
             this.handleProductType(result)
 
           })
