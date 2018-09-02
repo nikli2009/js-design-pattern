@@ -2,6 +2,14 @@
 
 > js-design-pattern
 
+some design patterns that can be useful when improving your code...
+
+```bash
+
+## Pattern List
+###　Strategy
+###  Factory
+
 ## Build Setup
 
 ``` bash
@@ -10,10 +18,3 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
