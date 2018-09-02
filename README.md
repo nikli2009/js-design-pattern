@@ -5,8 +5,8 @@
 some design patterns that can be useful when improving your code...
 
 ## Pattern List
-###　Strategy
-###  Factory
+### Strategy
+### Factory
 
 ## Build Setup
 
