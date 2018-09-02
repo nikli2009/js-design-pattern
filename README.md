@@ -4,8 +4,6 @@
 
 some design patterns that can be useful when improving your code...
 
-```bash
-
 ## Pattern List
 ###　Strategy
 ###  Factory
